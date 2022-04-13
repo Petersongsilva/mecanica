@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+ul{
+    top: 70px;
+    position: absolute;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+
+a:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(18, 51, 236);
+}
+
+ul{
+    list-style: none;
+}
+img{
+    width: 40px;
+}
+
+input[type= "checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ nav{
+transform: translateX(350px);
+}
+
+nav{
+    background-color: rgb(78, 86, 158);
+    width: 350px;
+    height: 100%;
+    position: absolute;
+    left: -350px;
+    transition: all .5s;
+}
+
+label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+header > h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 250px;
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
